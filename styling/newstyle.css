@@ -1,0 +1,664 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    font-size: 100px;
+    font-family: arial;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    color: rgb(49, 48, 48);
+}
+
+h3{
+    font-size: 36px;
+    font-family: arial;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*HEADER*/
+header{
+    background-color: rgb(243, 239, 239);
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.headSection{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header div.logo{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header nav li{
+    list-style-type: none;
+    float: left;
+    margin: 0 20px;
+}
+
+header nav li a{
+    color: rgb(87, 85, 85);
+    font-size: 20px;
+}
+
+.image{
+    height: 50px;
+}
+
+/*BODY*/
+
+/*BANNER SECTION*/
+.banner{
+    background: url("../images/Banner.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    opacity: 0.85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 104px;
+}
+
+.banner div{
+    text-align: center;
+    color: white;
+}
+
+.banner div a{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(245, 79, 79);
+    padding: 10px 40px;
+}
+
+.banner div a:hover{
+    background-color: rgb(13, 13, 95);
+}
+
+.banner div h3{
+    margin-bottom: 15px;
+}
+
+/*SECTION 1*/
+
+.services{
+    background-color: white;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 104px;
+}
+
+.services div{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.services li{
+    float: left;
+    list-style-type: none;  
+    width: 50%;
+}
+
+.services li.distribution{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services img{
+    height: 250px; 
+    width: 70%;
+}
+
+.services li p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-family: 'Lucida Sans';
+}
+
+.services li a{
+    background-color: rgb(245, 79, 79); 
+    padding: 10px 40px;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+
+.services li a:hover{
+    background-color: rgb(233, 127, 127);
+}
+
+/* SECTION 2 */
+
+.team{
+    background-color:rgb(217, 239, 247);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 104px;
+}
+
+.team div{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.team li{
+    float: left;
+    list-style-type: none;  
+    width: 46%;
+    margin: 0 2%;
+}
+
+.team li.people{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team img{
+    height: 250px; 
+    width: 70%;
+}
+
+.team li p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-family: 'Lucida Sans';
+    text-align: left;
+}
+
+.team li a{
+    background-color: rgb(245, 79, 79); 
+    padding: 10px 40px;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+
+.team li a:hover{
+    background-color: rgb(233, 127, 127);
+}
+
+/* SECTION 3 */
+
+.clients{
+    background-color:white;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 104px;
+}
+
+.clients div{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clients div li{
+    list-style: none;
+    display: inline;
+}
+
+.clients h2 {
+    margin-bottom: 40px;
+}
+
+.clients img {
+    height: 150px;
+    width: 20%;
+}
+
+.clients img:hover {
+    opacity: 0.4;
+}
+
+.clients a{
+    background-color: rgb(245, 79, 79); 
+    padding: 10px 40px;
+    font-size: 24px;
+    font-family: 'Times New Roman';   
+    color: white;
+}
+
+.clients a:hover {
+    background-color: rgb(233, 127, 127);
+}
+
+.clients ul{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#beats{
+    width: 180px;
+    margin-right: 40px;
+}
+
+/* SECTION 4*/
+
+.articles{
+    background-color:rgb(217, 239, 247);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 104px;
+}
+
+.articles .latest{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.articles li{
+    height: 312px;
+    float: left;
+    background-color: white;
+    width: 30.33%;
+    list-style: none;
+    margin: 0 1.5%;
+}
+
+.articles img{
+    height: 180px;
+    width: 100%;
+}
+
+.latest div{
+    width: 100%;
+}
+
+.articles h2{
+    margin-bottom: 40px;
+}
+
+.articles p{
+    font-size: 20px;
+    font-family: calibri;
+    letter-spacing: 1px;
+    color: rgb(117, 115, 115);
+    margin: 17px 15px;
+    text-align: left;
+}
+
+#comment {
+    font-size: 14px;
+    text-align: left;
+}
+
+#artTexts{
+    border-bottom: 1px solid gray;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+/* SECTION 5*/
+
+.contact{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 104px;
+}
+
+.contact div{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact li{
+    list-style: none;
+    float: left;
+    margin: 0 5%;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+}
+
+.contact li h4{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact li p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact li a{
+    background-color: rgb(245, 79, 79); 
+    padding: 15px 60px;
+    font-size: 20px;
+    font-family: 'Times New Roman';  
+    color: white;
+}
+
+.contact li a:hover{
+    background-color: rgb(233, 127, 127);
+}
+
+/*FOOTER*/
+
+footer{
+    position: relative;
+    top: 104px;
+    background-color: lightgray;
+    border-top: 1px solid black;
+    padding: 25px;
+    display: flex;
+}
+
+
+/* TABLETS */
+@media screen and (max-width: 870px){
+    h1 {
+        font-size: 60px;
+    }
+    
+    h3{
+        font-size: 27px;
+    }
+
+    header{
+        background-color: rgb(243, 239, 239);
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .headSection, .navigation{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    
+    header div.logo{
+        float: none;
+    }
+    
+    header nav{
+        float: none;
+    }
+    
+    header nav li{
+        margin: 0;
+        padding: 0;
+        width: 20%;
+        text-align: center;
+    }
+
+    .services img, .team img{
+        width: 90%;
+    }
+
+    .clients div{
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .team h2, p, a{
+        margin-left: 12px;
+    }
+
+    .articles .latest{
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .articles li{
+        width: 60%;
+        margin: 10px 20%;
+        padding: 0;
+    }
+
+    .articles{
+        height: 1234px;
+    }
+
+    .articles li img{
+        width: 100%;
+    }
+
+    .articles h2{
+        text-align: center;
+    }
+
+    .articles a{
+        margin: 0;
+    }
+
+    .contact li{
+        float: none;
+    }
+
+    .contact li p{
+        margin-bottom: 20px;
+    }
+}
+
+/* SMARTPHONES */
+
+@media screen and (max-width: 604px){
+    .burger-nav{
+        height: 40px;
+        display: block;
+        width: 100%;
+        background: url("../images/menu.jpg") no-repeat right center;
+        background-color: inherit;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+    }
+
+    header nav ul.open{
+        height: auto;
+    }
+
+    header{
+        padding: 0;
+        width: 100%; 
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    .headSection{
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    header nav ul{
+        overflow: hidden;
+        background-color: rgb(219, 215, 215);
+        height: 0;
+    }
+
+    header nav ul li{
+        margin: 0;
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+
+    header nav ul li a{
+        color: black;
+        padding: 10px;
+        border-bottom: 1px solid rgb(63, 107, 190);
+        display: block;
+    }
+
+    header, .banner, .services, .team, .clients, .articles, .contact, footer{
+        position: unset;
+    }
+
+    h1 {
+        font-size: 43px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+    
+    h3{
+        font-size: 22px;
+    }
+
+    .services{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 750px;
+        display: unset;
+    }
+    
+    .services div{
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .services li{   
+        width: 90%;
+        margin: 30px 10%;
+    }
+
+    .services p, .team p{
+        width: 87%;
+        margin-left: 0;
+    }
+
+    .services li.distribution{
+        display: unset;
+    }
+
+    .team{
+        height: 600px;
+        padding: 0;
+        margin: 0;  
+    }
+
+    .team div{
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .team li{
+        width: 90%;
+        margin: 30px 10%;
+    }
+
+    .team h2{ 
+        margin-left: 0;
+    }
+
+    .team li.people{
+        display: unset;
+    }
+
+    .clients{
+        height: 1000px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .clients div{
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .clients li{
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clients img {
+        height: 170px;
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    #beats{
+        margin: 0;
+        padding: 0;
+    }
+
+    .articles li{
+        width: 85%;
+        margin: 10px 7.5%;
+    }
+
+    .contact li h4{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .contact li p{
+        font-size: 17px;
+    }
+    
+}
