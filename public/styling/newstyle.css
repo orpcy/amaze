@@ -6,10 +6,11 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 100px;3
+  font-size: 100px;
   font-family: arial;
 }
 
@@ -414,7 +415,7 @@ footer {
 
   header {
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
   }
 
   .headSection,
@@ -510,7 +511,7 @@ footer {
   header nav ul.open {
     height: auto;
   }
-C
+
   header {
     padding: 0;
     width: 100%;
@@ -596,6 +597,10 @@ C
 
   .services li.distribution {
     display: unset;
+  }
+
+  .articles li img {
+    width: 93%;
   }
 
   .team {
