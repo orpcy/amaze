@@ -4,7 +4,7 @@ $(document).ready(() => {
     });
 
     $('.banner').hide();
-    $('.banner').fadeIn(4000);;
+    $('.banner').fadeIn(4000);
     $('.slide').slideUp(1);
     $('.slide').slideDown(4000);
 
